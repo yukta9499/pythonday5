@@ -21,4 +21,12 @@ print("Position of Yukta in text is",text.find("Yukta"))
 #Replace a substring
 print(text.replace("Yukta","Yukkss"))
 
+#Check if string starts or ends with certain substring
+print(text.startswith(" We"))
+print(text.endswith("!"))
 
+#split string into list using delimiteer
+print(text.split())
+
+# words=["Python","is","a","language"]
+# print(words.join())
